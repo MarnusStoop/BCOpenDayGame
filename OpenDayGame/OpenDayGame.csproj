@@ -42,10 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GameStates\MainMenuState.cs" />
+    <Compile Include="GameStates\State.cs" />
     <Compile Include="Handlers\FileHandler.cs" />
     <Compile Include="Handlers\ImageHandler.cs" />
     <Compile Include="Handlers\iniFileHandler.cs" />
     <Compile Include="Handlers\SoundHandler.cs" />
+    <Compile Include="Handlers\StateHandler.cs" />
+    <Compile Include="Managers\DrawManager.cs" />
     <Compile Include="Managers\GameManager.cs" />
     <Compile Include="Managers\HighScoreManager.cs" />
     <Compile Include="Managers\LevelManager.cs" />
